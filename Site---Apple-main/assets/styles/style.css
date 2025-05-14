@@ -5,6 +5,7 @@
 }
 
 body{
+    font-family: sans-serif;
     background-color: #f6f4f4;
     height: 400vh;
 }
@@ -109,6 +110,27 @@ a:link {
     background-image: linear-gradient( #D6EBF6,#fff);
 }
 
+.produto02{
+    width: 30rem;
+    height: 35rem;
+    border-radius: 1rem;
+    background-image: radial-gradient(#070000, #1a1212);
+}
+
+.produto03{
+    width: 30rem;
+    height: 35rem;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+
+
+.caracteres-iphone{
+    color: #fff;
+    margin-top: .5rem;
+}
+
 .modificar-caracteres{
     margin-top: 3rem;
     margin-left: 2rem;
@@ -119,11 +141,49 @@ a:link {
     margin-top: .5rem;
 }
 
+.novo{
+    color: #B64501;
+}
+
 .imagemProduto01{
     margin-top: 2rem;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
+
+.imagemProduto-appleWatch1{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.imagemProduto-appleWatch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5rem;
+    width: 13rem;
+    height: 17rem;
+}
+
+/*appleWatchPreto*/
+
+.imagemProduto-WatchPreto{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+/*iphone16e*/
+
+.imagemProduto-iphone16e{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+/*scrool*/
 
 .scroll-horizontal {
     display: flex;
